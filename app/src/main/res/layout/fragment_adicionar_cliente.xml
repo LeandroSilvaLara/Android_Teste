@@ -11,137 +11,152 @@
         android:layout_margin="16dp"
         >
 
-        <TextView
-            android:id="@+id/txtTitulo"
+        <TextView android:id="@+id/txtTitulo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:background="@color/vermelho"
+            android:background="@color/campos"
             android:textSize="18sp"
             android:textStyle="bold"
             android:textColor="@color/colorPrimary"
             />
 
-        <EditText
-            android:id="@+id/editNomeCompleto"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:background="@color/vermelho"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:layout_marginTop="8dp"
-            android:textColor="@color/colorPrimary"
-            />
-
-        <EditText
-            android:id="@+id/editTelefone"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:background="@color/vermelho"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:layout_marginTop="8dp"
-            android:textColor="@color/colorPrimary"
-            />
-
-        <EditText
-            android:id="@+id/editEmail"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:background="@color/vermelho"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:layout_marginTop="8dp"
-            android:textColor="@color/colorPrimary"
-            />
-
-        <EditText
-            android:id="@+id/editNCep"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:background="@color/vermelho"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:layout_marginTop="8dp"
-            android:textColor="@color/colorPrimary"
-            />
-
-        <TextView
-            android:id="@+id/editLogradouro"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:background="@color/vermelho"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:layout_marginTop="8dp"
-            android:textColor="@color/colorPrimary"
-            />
-
-        <EditText
-            android:id="@+id/editNumero"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:background="@color/vermelho"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:layout_marginTop="8dp"
-            android:textColor="@color/colorPrimary"
-            />
-
-        <TextView
-            android:id="@+id/editBairro"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:background="@color/vermelho"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:layout_marginTop="8dp"
-            android:textColor="@color/colorPrimary"
-            />
-
-        <TextView
-            android:id="@+id/editCidade"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:background="@color/vermelho"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:layout_marginTop="8dp"
-            android:textColor="@color/colorPrimary"
-            />
-
-        <EditText
-            android:id="@+id/editEstado"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:background="@color/vermelho"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:layout_marginTop="8dp"
-            android:textColor="@color/colorPrimary"
-            />
-
-        <CheckBox
-            android:id="@+id/checkTermos"
+        <EditText android:id="@+id/editNomeCompleto"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="left"
-            android:background="@color/vermelho"
+            android:background="@color/campos"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:hint="Nome Completo"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <EditText android:id="@+id/editTelefone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:background="@color/campos"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:hint="Telefone"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <EditText android:id="@+id/editEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:background="@color/campos"
+            android:textSize="18sp"
+            android:hint="Email"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <EditText android:id="@+id/editNCep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:background="@color/campos"
+            android:textSize="18sp"
+            android:hint="Cep"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <EditText android:id="@+id/editLogradouro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:background="@color/campos"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:hint="Logradouro"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <EditText android:id="@+id/editNumero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:background="@color/campos"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:hint="Número"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <EditText android:id="@+id/editBairro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:background="@color/campos"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:hint="Bairro"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <EditText android:id="@+id/editCidade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:background="@color/campos"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:hint="Cidade"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <EditText android:id="@+id/editEstado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:background="@color/campos"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:hint="Estado"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <CheckBox android:id="@+id/checkTermos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:background="@color/campos"
             android:textSize="18sp"
             android:textStyle="bold"
             android:layout_marginTop="8dp"
             android:textColor="@color/colorPrimary"
             android:text="Termos de Uso"
             />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        <Button
+            android:id="@+id/btnCancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CANCELAR" />
+
+        <Button
+            android:id="@+id/btnSalvar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SALVAR" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
 
 
 
