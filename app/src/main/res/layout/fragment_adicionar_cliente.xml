@@ -41,6 +41,7 @@
             android:textSize="18sp"
             android:textStyle="bold"
             android:hint="Telefone"
+            android:inputType="phone"
             android:layout_marginTop="8dp"
             android:textColor="@color/colorPrimary"
             />
@@ -52,6 +53,7 @@
             android:background="@color/campos"
             android:textSize="18sp"
             android:hint="Email"
+            android:inputType="textEmailAddress"
             android:textStyle="bold"
             android:layout_marginTop="8dp"
             android:textColor="@color/colorPrimary"
@@ -64,6 +66,7 @@
             android:background="@color/campos"
             android:textSize="18sp"
             android:hint="Cep"
+            android:inputType="number"
             android:textStyle="bold"
             android:layout_marginTop="8dp"
             android:textColor="@color/colorPrimary"
@@ -89,6 +92,7 @@
             android:textSize="18sp"
             android:textStyle="bold"
             android:hint="Número"
+            android:inputType="number"
             android:layout_marginTop="8dp"
             android:textColor="@color/colorPrimary"
             />
