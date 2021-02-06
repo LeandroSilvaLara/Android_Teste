@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity
         fragmentManager = getSupportFragmentManager();
 
         // content_fragment usado para receber os layouts dos fragmentos
-        fragmentManager.beginTransaction().replace(R.id.content_fragment, new ModeloVermelhoFragment()).commit();
+        fragmentManager.beginTransaction().replace(R.id.content_fragment, new ListarClientesFragment()).commit();
 
 
         ClienteController clienteController = new ClienteController(getBaseContext());
@@ -132,6 +132,10 @@ public class MainActivity extends AppCompatActivity
 
             fragmentManager.beginTransaction().replace(R.id.content_fragment, new ModeloPretoFragment()).commit();
 
+        } else if (id == R.id.nav_listar_cliente){
+
+            fragmentManager.beginTransaction().replace(R.id.content_fragment, new ListarClientesFragment()).commit();
+
         } else if (id == R.id.nav_vermelho) {
 
             menu = navigationView.getMenu();
@@ -168,11 +172,12 @@ public class MainActivity extends AppCompatActivity
 
             fragmentManager.beginTransaction().replace(R.id.content_fragment, new ModeloAzulFragment()).commit();
 
-        }else if (id == R.id.nav_adicionar_cliente){
+        } else if (id == R.id.nav_adicionar_cliente){
 
             setTitle("Novo Cliente");
 
             fragmentManager.beginTransaction().replace(R.id.content_fragment, new AdicionarClienteFragment()).commit();
+
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

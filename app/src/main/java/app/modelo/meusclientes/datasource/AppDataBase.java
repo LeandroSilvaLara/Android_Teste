@@ -169,7 +169,7 @@ public class AppDataBase extends SQLiteOpenHelper {
 
                 Log.i("Listar", "getAllClientes: "+obj.getNome());
 
-            }while (cursor.moveToNext());
+            }while (cursor.moveToNext()); //EOF end of file (-1)
 
         }
 

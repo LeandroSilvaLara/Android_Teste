@@ -8,9 +8,12 @@
     <string name="action_settings">Sair</string>
 
     <string name="modelo_fragment">Cliente VIP DEMO</string>
+    <string name="listar_clientes_fragment">Listar de Clientes</string>
 
     <!-- Opções do Menu Lateral Drawer -->
     <string name="fragmento_adicionar_cliente">Adicionar Cliente</string>
+    <string name="fragmento_listar_clientes">Listar de  Cliente</string>
+
     <string name="fragmento_preto">Fragmento Preto</string>
     <string name="titulo_preto">Preto</string>
     <string name="fragmento_vermelho">Fragmento Vermelho</string>
